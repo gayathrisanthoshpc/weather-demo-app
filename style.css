@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg,#4facfe,#00f2fe);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.app {
+  background:white;
+  padding:30px;
+  border-radius:18px;
+  text-align:center;
+  width:320px;
+  box-shadow:0 15px 30px rgba(0,0,0,0.2);
+}
+
+input, button {
+  padding:10px;
+  margin:8px;
+  width:85%;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+
+button {
+  background:#4CAF50;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+
+.card {
+  margin-top:15px;
+  padding:15px;
+  border-radius:12px;
+  background:#f5f7fa;
+  animation: fade 0.5s ease-in;
+}
+
+.hidden {
+  display:none;
+}
+
+@keyframes fade {
+  from {opacity:0; transform:translateY(10px);}
+  to {opacity:1; transform:translateY(0);}
+}
